@@ -38,7 +38,7 @@
 		C67B054D2B365CC2007F9576 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		C67B054F2B365CD4007F9576 /* XPLM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XPLM.framework; path = SDK/Libraries/Mac/XPLM.framework; sourceTree = "<group>"; };
 		C67B05532B365CE0007F9576 /* XPWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XPWidgets.framework; path = SDK/Libraries/Mac/XPWidgets.framework; sourceTree = "<group>"; };
-		C6CE8C8C2B40A33000B0948D /* X-Plane-Dataref-and-Command.xpl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; name = "X-Plane-Dataref-and-Command.xpl"; path = "/Users/jordanpalmer/Applications/VS_Code_C++/X-Plane-Dataref-and-Command/build/Debug/X-Plane-Dataref-and-Command.xpl"; sourceTree = "<absolute>"; };
+		C6CE8C8D2B40A7F300B0948D /* X-Plane-Control-Surface-Datarefs.xpl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "X-Plane-Control-Surface-Datarefs.xpl"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +62,7 @@
 				C67B05492B365C7D007F9576 /* Source */,
 				C67B05462B365C69007F9576 /* SDK */,
 				C67B054A2B365C96007F9576 /* Frameworks */,
+				C6CE8C8D2B40A7F300B0948D /* X-Plane-Control-Surface-Datarefs.xpl */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +98,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C67B05372B365C15007F9576 /* X-Plane-Dataref-and-Command */ = {
+		C67B05372B365C15007F9576 /* X-Plane-Control-Surface-Datarefs */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C67B05432B365C15007F9576 /* Build configuration list for PBXNativeTarget "X-Plane-Dataref-and-Command" */;
+			buildConfigurationList = C67B05432B365C15007F9576 /* Build configuration list for PBXNativeTarget "X-Plane-Control-Surface-Datarefs" */;
 			buildPhases = (
 				C67B05342B365C15007F9576 /* Headers */,
 				C67B05352B365C15007F9576 /* Sources */,
@@ -110,9 +111,9 @@
 			);
 			dependencies = (
 			);
-			name = "X-Plane-Dataref-and-Command";
+			name = "X-Plane-Control-Surface-Datarefs";
 			productName = "Hello-World-SDK-3";
-			productReference = C6CE8C8C2B40A33000B0948D /* X-Plane-Dataref-and-Command.xpl */;
+			productReference = C6CE8C8D2B40A7F300B0948D /* X-Plane-Control-Surface-Datarefs.xpl */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
@@ -129,7 +130,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C67B05332B365C15007F9576 /* Build configuration list for PBXProject "X-Plane-Dataref-and-Command" */;
+			buildConfigurationList = C67B05332B365C15007F9576 /* Build configuration list for PBXProject "X-Plane-Control-Surface-Datarefs" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -142,7 +143,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C67B05372B365C15007F9576 /* X-Plane-Dataref-and-Command */,
+				C67B05372B365C15007F9576 /* X-Plane-Control-Surface-Datarefs */,
 			);
 		};
 /* End PBXProject section */
@@ -361,7 +362,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C67B05332B365C15007F9576 /* Build configuration list for PBXProject "X-Plane-Dataref-and-Command" */ = {
+		C67B05332B365C15007F9576 /* Build configuration list for PBXProject "X-Plane-Control-Surface-Datarefs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C67B05412B365C15007F9576 /* Debug */,
@@ -370,7 +371,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C67B05432B365C15007F9576 /* Build configuration list for PBXNativeTarget "X-Plane-Dataref-and-Command" */ = {
+		C67B05432B365C15007F9576 /* Build configuration list for PBXNativeTarget "X-Plane-Control-Surface-Datarefs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C67B05442B365C15007F9576 /* Debug */,

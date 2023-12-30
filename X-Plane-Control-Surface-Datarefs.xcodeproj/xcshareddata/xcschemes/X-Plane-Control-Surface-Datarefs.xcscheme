@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C67B05372B365C15007F9576"
-               BuildableName = "X-Plane-Dataref-and-Command.xpl"
-               BlueprintName = "X-Plane-Dataref-and-Command"
-               ReferencedContainer = "container:X-Plane-Dataref-and-Command.xcodeproj">
+               BuildableName = "X-Plane-Control-Surface-Datarefs.xpl"
+               BlueprintName = "X-Plane-Control-Surface-Datarefs"
+               ReferencedContainer = "container:X-Plane-Control-Surface-Datarefs.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -50,9 +50,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C67B05372B365C15007F9576"
-            BuildableName = "X-Plane-Dataref-and-Command.xpl"
-            BlueprintName = "X-Plane-Dataref-and-Command"
-            ReferencedContainer = "container:X-Plane-Dataref-and-Command.xcodeproj">
+            BuildableName = "X-Plane-Control-Surface-Datarefs.xpl"
+            BlueprintName = "X-Plane-Control-Surface-Datarefs"
+            ReferencedContainer = "container:X-Plane-Control-Surface-Datarefs.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
